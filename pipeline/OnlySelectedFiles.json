@@ -113,7 +113,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"p_filename": {
-														"value": "@item.name",
+														"value": "@item().name",
 														"type": "Expression"
 													}
 												}
@@ -125,7 +125,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"p_file_name": {
-														"value": "@item.name",
+														"value": "@item().name",
 														"type": "Expression"
 													}
 												}
